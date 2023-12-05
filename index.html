@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Reservation System</title>
+    <!-- Add your CSS file link here if you have -->
+    <!-- Example: <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <!-- User Addition Form -->
+    <div>
+        <h2>Add User</h2>
+        <input type="text" id="usernameInput" placeholder="Enter Username">
+        <button id="addUserButton">Add User</button>
+    </div>
+
+    <!-- Reservation Creation Form -->
+    <div>
+        <h2>Create Reservation</h2>
+        <input type="text" id="reservationUserInput" placeholder="Username for Reservation">
+        <input type="date" id="reservationDateInput" placeholder="Date">
+        <input type="time" id="reservationTimeInput" placeholder="Time">
+        <input type="number" id="reservationDurationInput" placeholder="Duration (hours)">
+        <button id="createReservationButton">Create Reservation</button>
+    </div>
+
+    <!-- Section to Display Reservations -->
+    <div id="reservationsDisplay">
+        <h2>Reservations</h2>
+        <!-- Reservations will be displayed here -->
+    </div>
+
+    <!-- Button to Fetch All Reservations -->
+    <button id="fetchAllReservationsButton">Fetch All Reservations</button>
+
+    <!-- Link to the Client JavaScript File -->
+    <script src="client.js"></script>
+</body>
+</html>
